@@ -3,15 +3,6 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken'); //biblioteca para poder usar tokens
 
 
-
-
-
-
-
-
-
-
-
 const authConfig = require('../config/auth');
 
 const User = require('../models/User'); //puxando o model de User
