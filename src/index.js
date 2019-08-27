@@ -9,7 +9,6 @@ app.use(bodyParse.urlencoded({ extended: false }));  // para entender quando for
                                                                 //app.get('/', (req, res) =>{   // req == dados da requisição
                                                                 // res.send('OK');          // res == envia resposta para o usuario quando ele acessar a rota
                                                                 //});
-require('./controllers/authController')(app); // repassando o app para o AuthController
-require('./controllers/projectController')(app);
+require('./app/controllers/index')(app); 
 
 app.listen(3030);
