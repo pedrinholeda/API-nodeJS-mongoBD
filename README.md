@@ -2,8 +2,12 @@
 
 ## API usando NodeJS, Express e MongoDB.
 ### Funções presentes na API:
-- Cadastrar Usuario
-- Fazer a validação e autentição do usuario atravez de tokens
+- Cadastrar Usuario.
+- Fazer a validação e autentição do usuario atravez de tokens.
+- Função de Forgot Password, enviando um token por email para o MailTrap.
+- Função de Reset Password, atravez do token enviado no MailTrap
+- Criar Projetos e Tasks.
+- Fuções de Create, Update e Delete em cima desses objetos.
 
 ### Packages Usados :
 ```
